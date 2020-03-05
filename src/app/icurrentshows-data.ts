@@ -10,6 +10,7 @@ export interface ICurrentshowsData {
      time: number,
      day: string
      rating: number
-   },
+     image: string
+   }
   ]}
   
