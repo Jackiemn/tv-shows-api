@@ -15,5 +15,7 @@ export class CurrentShowsComponent implements OnInit {
 
   ngOnInit() {
     this.showsService.getCurrentShows('shows','language',' genres', 'runtime', 'time', 'day','rating', 'image').subscribe(data => this.current = data)
+    
   }
 }
+

@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CurrentShowsComponent } from './current-shows.component';
+import { ShowsService } from '../shows.service';
 
 describe('CurrentShowsComponent', () => {
   let component: CurrentShowsComponent;
